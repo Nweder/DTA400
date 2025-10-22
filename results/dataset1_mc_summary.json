@@ -1,0 +1,57 @@
+{
+  "N": 2000,
+  "subsample_frac": 0.8,
+  "seed": 42,
+  "eps_prior": [
+    "uniform",
+    0.05,
+    0.25
+  ],
+  "min_s_prior": [
+    "discrete_uniform",
+    3,
+    7
+  ],
+  "n_clusters": {
+    "mean": 1472.1345,
+    "std": 871.0964515618875,
+    "p5": 603.95,
+    "p50": 1177.5,
+    "p95": 3502.1499999999996,
+    "ci95_mean": [
+      1433.9570147392358,
+      1510.311985260764
+    ]
+  },
+  "noise_ratio": {
+    "mean": 0.2937956958019548,
+    "std": 0.1686183231267001,
+    "p5": 0.09055539977567698,
+    "p50": 0.2500300432622977,
+    "p95": 0.6345076910751483,
+    "ci95_mean": [
+      0.2864056719597936,
+      0.301185719644116
+    ]
+  },
+  "largest_cluster": {
+    "mean": 4798.3075,
+    "std": 1897.0303068048802,
+    "p5": 2060.9,
+    "p50": 5375.5,
+    "p95": 7296.05,
+    "ci95_mean": [
+      4715.166481060697,
+      4881.448518939303
+    ]
+  },
+  "risk_many_clusters_p_ge_5": 1.0,
+  "sensitivity_spearman": {
+    "spearman_eps_to_n_clusters": -0.35923325140186163,
+    "spearman_min_samples_to_n_clusters": -0.9021323485004006,
+    "spearman_eps_to_noise": -0.8737087690266596,
+    "spearman_min_samples_to_noise": 0.49603635922410116,
+    "spearman_eps_to_largest": 0.959423316311138,
+    "spearman_min_samples_to_largest": -0.1378958634769981
+  }
+}
