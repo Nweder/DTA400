@@ -14,15 +14,6 @@ The results are presented in a short scientific article following the IEEE confe
 - Collect, analyze, and interpret simulation data  
 - Present results and conclusions in IEEE format  
 
-Det ser ut så där eftersom Markdown tolkar dina mappar och kommentarer (`# Python scripts ...`) som vanlig text på samma rad — inte som en kodblockstruktur.
-
-För att få den att visas korrekt med mappar på egna rader, ändra det till ett kodblock med ``` runt hela strukturen:
-
-```markdown
-Det ser ut så där eftersom Markdown tolkar dina mappar och kommentarer (`# Python scripts ...`) som vanlig text på samma rad — inte som en kodblockstruktur.
-
-För att få den att visas korrekt med mappar på egna rader, ändra det till ett kodblock med ``` runt hela strukturen:
-
 ```markdown
 ## Project Structure
 
