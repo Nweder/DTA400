@@ -25,7 +25,6 @@ För att få den att visas korrekt med mappar på egna rader, ändra det till et
 
 ```markdown
 ## Project Structure
-```
 
 📂 DTA400
 ┣ 📂 src/              # Python scripts (e.g., main.py)
