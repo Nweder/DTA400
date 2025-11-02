@@ -19,6 +19,11 @@ Det ser ut så där eftersom Markdown tolkar dina mappar och kommentarer (`# Pyt
 För att få den att visas korrekt med mappar på egna rader, ändra det till ett kodblock med ``` runt hela strukturen:
 
 ```markdown
+Det ser ut så där eftersom Markdown tolkar dina mappar och kommentarer (`# Python scripts ...`) som vanlig text på samma rad — inte som en kodblockstruktur.
+
+För att få den att visas korrekt med mappar på egna rader, ändra det till ett kodblock med ``` runt hela strukturen:
+
+```markdown
 ## Project Structure
 ```
 
@@ -30,7 +35,10 @@ För att få den att visas korrekt med mappar på egna rader, ändra det till et
 ┣ 📄 DTA400_SimulationStudy_MohamadNweder.docx  # report (export as PDF for submission)
 ┗ 📄 README.md
 
+```
+
 > Note: Export the final report as `report.pdf` before submission.
+```
 
 ## Requirements
 - Python 3.10+  
