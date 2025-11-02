@@ -14,18 +14,21 @@ The results are presented in a short scientific article following the IEEE confe
 - Collect, analyze, and interpret simulation data  
 - Present results and conclusions in IEEE format  
 
+Det ser ut så där eftersom Markdown tolkar dina mappar och kommentarer (`# Python scripts ...`) som vanlig text på samma rad — inte som en kodblockstruktur.
+
+För att få den att visas korrekt med mappar på egna rader, ändra det till ett kodblock med ``` runt hela strukturen:
+
+```markdown
 ## Project Structure
 ```
 
 📂 DTA400
-┣ 📂 src/            # Python scripts (e.g., main.py)
-┣ 📂 data/           # dataset1.npy, dataset2.npy
-┣ 📂 results/        # output files, logs, tables
-┣ 📂 plots/          # generated graphs and figures
+┣ 📂 src/              # Python scripts (e.g., main.py)
+┣ 📂 data/             # dataset1.npy, dataset2.npy
+┣ 📂 results/          # output files, logs, tables
+┣ 📂 plots/            # generated graphs and figures
 ┣ 📄 DTA400_SimulationStudy_MohamadNweder.docx  # report (export as PDF for submission)
 ┗ 📄 README.md
-
-````
 
 > Note: Export the final report as `report.pdf` before submission.
 
