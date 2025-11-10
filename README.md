@@ -22,7 +22,7 @@ The results are presented in a short scientific article following the IEEE confe
 ┣ 📂 data/             # dataset1.npy, dataset2.npy
 ┣ 📂 results/          # output files, logs, tables
 ┣ 📂 plots/            # generated graphs and figures
-┣ 📄 DTA400_SimulationStudy_MohamadNweder.docx  # report (export as PDF for submission)
+┣ 📄 Nweder_DBSCAN_MonteCarlo_Simulation.pdf  # report (export as PDF for submission)
 ┗ 📄 README.md
 
 ```
